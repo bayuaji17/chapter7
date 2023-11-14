@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "The Impostor";
+  src: url(/src/assets/The-Impostor.woff2) format(woff2);
+}
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 4rem;
+  text-align: center;
+}
+
+.myName {
+  font-family: "The Impostor";
+  color: white;
+  font-size: 10vh;
+  animation: textStroke 2s infinite alternate;
+}
+.myName:hover {
+  color: rgb(0, 201, 201);
+  font-size: 10vh;
+  cursor: pointer;
+}
+.kelas {
+  font-family: "The Impostor";
+  font-size: 7vh;
+  color: rgb(0, 201, 201);
+  animation: textStroke 2s infinite alternate;
+}
+@keyframes textStroke {
+  0% {
+    -webkit-text-stroke: 2px #E95793;
+  }
+  25% {
+    -webkit-text-stroke: 2px #DA0C81;
+  }
+  50% {
+    -webkit-text-stroke: 2px #940B92;
+  }
+  75% {
+    -webkit-text-stroke: 2px #610C9F;
+  }
+  100% {
+    -webkit-text-stroke: 2px #E95793;
+  }
+}
